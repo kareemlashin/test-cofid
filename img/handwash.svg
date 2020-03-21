@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138" height="129" viewBox="0 0 138 129">
+    <defs>
+        <path id="prefix__a" d="M0.818 0.701L22.714 0.701 22.714 5.223 0.818 5.223z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#2B90D9" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2.6" d="M34.582 78.165l34.944-.644h8.644s-10.79-9.484-14.59-12.392c-2.265-1.733-2.943-4.83-1.329-7.179 1.616-2.349 4.739-2.801 7.179-1.327 4.091 2.471 14.157 7.65 20.117 10.68 3.044 1.547 6.18 2.89 9.397 4.027l16.238 9.435" transform="translate(0 2)"/>
+        <path stroke="#2B90D9" stroke-linejoin="round" stroke-width="2.6" d="M35.882 78.165c-3.71 0-6.617 2.73-5.846 6.577.565 2.821 2.801 4.479 5.678 4.479h39" transform="translate(0 2)"/>
+        <path stroke="#2B90D9" stroke-linejoin="round" stroke-width="2.6" d="M74.715 100.92H33.433c-2.235 0-4.364-1.237-5.247-3.29-1.842-4.283 1.25-8.41 5.306-8.41h6.123M74.715 111.32H39.07c-1.987 0-3.88-1.1-4.665-2.925-1.636-3.807 1.112-7.475 4.717-7.475h5.527" transform="translate(0 2)"/>
+        <path stroke="#2B90D9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" d="M56.515 111.32h-6.013c-2.255 0-4.415 1.246-5.296 3.323-1.812 4.272 1.274 8.377 5.32 8.377l30.856-.655" transform="translate(0 2)"/>
+        <g transform="translate(0 2) translate(114.4 80.098)">
+            <mask id="prefix__b" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <path stroke="#2B90D9" stroke-width="2.6" d="M.818.7c1.314 1.358 2.66 2.928 3.697 4.523h18.2" mask="url(#prefix__b)"/>
+        </g>
+        <path stroke="#2B90D9" stroke-width="2.6" d="M0.782 50.865L47.582 20.965 54.082 20.965 54.082 32.665 86.582 32.665 86.582 20.965 63.182 20.965" transform="translate(0 2)"/>
+        <path stroke="#2B90D9" stroke-width="2.6" d="M.782 24.865s27.032-20.358 37.7-23.4c11.565-3.296 48.1 0 48.1 0v19.5M57.982 37.865L52.782 48.265M82.682 37.865L87.882 48.265" transform="translate(0 2)"/>
+        <g>
+            <path fill="#FFF" d="M0.782 0.668L0.782 11.068" transform="translate(0 2) translate(68.9 37.198)"/>
+            <path stroke="#2B90D9" stroke-width="2.6" d="M0.782 0.668L0.782 11.068" transform="translate(0 2) translate(68.9 37.198)"/>
+        </g>
+        <path stroke="#2B90D9" stroke-width="2.6" d="M29.382 63.865c-3.9-2.6-19.5 5.2-11.7 19.5 0 0-12.35 9.75-.65 22.75 0 0-5.2 16.9 10.4 19.5M29.382 63.865s9.1-5.2 18.2 1.3M95.682 57.365s20.8-5.2 23.4 14.3M81.382 123.02L104.504 119.041 135.814 119.041M115.182 80.098L119.082 85.321 137.114 85.321" transform="translate(0 2)"/>
+    </g>
+</svg>

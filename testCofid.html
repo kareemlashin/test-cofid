@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Elbalto</title>
+</head>
+
+<body>
+    <div id="splash-screen" class="splash-screen">
+        <div class="loader"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top padding-nav">
+        <a class="navbar-brand" href="#"><img src="img/Logo.png" class="img-responsive" alt="" srcset=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav mRL-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Doctors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Blog</a>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="rtlOrLtr  px-3 rounded-pill">
+            <a href="indexrtl.html">
+            عربي
+        </a>
+        </div>
+    </nav>
+    <section class="my-5 py-3">
+        <div class="container">
+            <div class="welcome-test">
+
+                <h2 class="text-center my-5">Coronavirus Risk Assessment
+                </h2>
+                <div class="row">
+
+                    <div class="col-md-12 bg-white shadow p-5 ">
+                        <p>
+                            Based on CDC guidelines, we’ve prepared a risk assessment to help you determine if you should seek evaluation by a doctor. </p>
+                        <p>
+                            The assessment should take less than two minutes and will provide you with personalized recommendations based on your answers.
+                        </p>
+                    </div>
+                    <div class="begin w-100">
+                        <button class="py-1 px-3 my-5  mx-auto" id="begin">Begine</button>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="question-container">
+                <div class="row mt-5" id="bars-config">
+                    <div class="col-md-5 text-center my-2">
+                        <span id="Previous" class="d-inline-block">
+                            <i class="fas fa-chevron-left px-1"></i>Previous
+                        </span>
+                    </div>
+                    <div class="col-md-5 bar-postion my-2">
+                        <div class="bar">
+                            <div class="barActive"></div>
+                        </div>
+                        <span class="dunamicNum">1</span>
+                        <span class="total-quest ">/11</span>
+                    </div>
+                </div>
+                <div class="row my-3 ">
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q1">
+                        <div class="row">
+                            <div class="col-md-7 d-flex justify-content-center align-items-center">
+                                <p class=""> Do you have a cough?
+                                </p>
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">yes</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">no</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q2">
+                        <div class="row">
+                            <div class="col-md-7 d-flex justify-content-center align-items-center">
+                                <p class=""> Are you having difficulty breathing?
+
+                                </p>
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">yes</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">no</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q3">
+                        <div class="row">
+                            <div class="col-md-7 d-flex justify-content-center align-items-center">
+                                <p class="">Do you have a fever?
+                                </p>
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">yes</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">no</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q4">
+                        <div class="row">
+                            <div class="col-md-7 ">
+                                <h4 class=""> How severe are your symptoms?
+                                </h4>
+                                <p>
+                                    Severity is defined as:
+                                </p>
+                                <div class="desc-answer px-3">
+                                    <p>Mild: Easy to breathe, no wheezing, usual activities (such as walking around the house) are not affected. Coughing is mild. You may have: runny nose, sore throat, body aches, or a mild fever (from 99℉ to less than 103℉).
+                                        You may feel tired.
+                                    </p>
+                                    <p>Moderate: Mild wheezing, some chest tightness, beginning to affect activities such as working, sleeping, or playing. Coughing may make you feel slightly out of breath, but you can catch your breath easily when you stop
+                                        coughing. You may have: runny nose, sore throat, body aches, or a mild fever (from 99℉ to less than 103℉).
+                                    </p>
+                                    <p>Severe: Interruption of usual activities, such as difficulty talking, eating, or walking. Breathing may be hard and fast. You may see bluish coloration in lips or fingertips. You feel persistent pressure in the chest,
+                                        which might worsen with breathing. You may see ribs while breathing, feel lethargic or confused. Your temperature may be 103℉ or higher.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">Mid</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no Moderate">Moderate</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">Severe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q5">
+                        <div class="row">
+                            <div class="col-md-7 ">
+                                <p class="">
+                                    Do you believe you may have been exposed to someone with COVID-19?
+                                </p>
+
+
+                                <div class="desc-answer">
+                                    <p>
+                                        Risk of exposure may occur under the following circumstances:
+
+                                    </p>
+                                    <div class=" px-3">
+                                        <p>There is ongoing community spread of the virus in your local area or an area that you traveled to within 14 days of symptom onset
+                                        </p>
+                                        <p>You are a healthcare worker who has cared for a person with a suspected or confirmed diagnosis of COVID-19 within 14 days of symptom onset
+                                        </p>
+                                        <p>
+                                            You have been in close contact with a person with a confirmed diagnosis of COVID-19
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">yes</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">no</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q6">
+                        <div class="row">
+                            <div class="col-md-7 d-flex justify-content-center align-items-center">
+                                <p class="">Are you over the age of 65?
+                                </p>
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">yes</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">no</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q7">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <p class="">
+                                    Do you have a history of diabetes?
+                                </p>
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">yes</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">no</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q8">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <p class="">
+                                    Do you have a history of cardiovascular or heart disease?
+                                </p>
+                                <div class="desc-answer">
+                                    <p>
+                                        Answer yes to this question if any of the following are true:
+
+                                    </p>
+                                    <div class=" px-3">
+                                        <p>
+                                            You have a history of prior heart attack, stroke, or heart failure
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">yes</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">no</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q9">
+                        <div class="row">
+                            <div class="col-md-7 ">
+                                <p class="">
+                                    Do you have a history of decreased immunity?
+                                </p>
+                                <div class="desc-answer">
+                                    <p>
+                                        Answer yes to this question if any of the following are true:
+
+                                    </p>
+                                    <div class=" px-3">
+                                        <p>
+                                            You take long-term oral steroids
+                                        </p>
+
+                                        <p>
+                                            You have an autoimmune disease such as lupus or rheumatoid arthritis
+                                        </p>
+
+                                        <p>
+                                            You have a history of cancer
+                                        </p>
+
+                                        <p>
+                                            You have HIV/AIDS
+                                        </p>
+
+                                        <p>
+                                            You have chronic kidney or liver disease
+                                        </p>
+                                        <p>
+                                            You are on medications after an organ transplant
+                                        </p>
+                                        <p>
+                                            Your doctor has told you that your medications may cause decreased immunity or has told you that you have decreased immunity for reasons not listed above
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">yes</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">no</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q10">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <p class="">Are you pregnant?
+                                </p>
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">yes</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">no</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 quesion" id="q11">
+                        <div class="row">
+                            <div class="col-md-7 ">
+                                <p class=""> Do you have a history of chronic lung disease?
+
+                                </p>
+
+                                <div class="desc-answer">
+                                    <p>
+                                        Answer yes to this question if any of the following are true:
+
+                                    </p>
+                                    <div class=" px-3">
+                                        <p>
+                                            You have a history of asthma
+                                        </p>
+
+                                        <p>
+                                            You have a history of chronic obstructive pulmonary disease/copd or emphysema
+                                        </p>
+                                        <p>You have a history of chronic bronchitis</p>
+                                        <p>
+                                            You have a history of interstitial lung disease
+                                        </p>
+
+                                        <p>
+                                            You have a history of a chronic lung disease not listed above
+                                        </p>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3  mx-3">
+                                <div>
+                                    <button class="px-3 py-1 w-100 rounded-pill yes">yes</button>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="px-3 py-1 w-100 rounded-pill no">no</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 bg-white shadow mx-auto py-5 mt-5" id="result">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <p class="text-center border-bottom pb-2 title-watch">Your Results
+                                </p>
+                                <div class="px-2">
+                                    <span class="py-4">
+                                        Results
+                                     </span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, exercitationem voluptates asperiores ratione velit quas fuga at impedit voluptatum sit totam sint est atque? Consequuntur nulla beatae necessitatibus reprehenderit doloremque!
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/jquery-3-4-1-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery-accordion.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
